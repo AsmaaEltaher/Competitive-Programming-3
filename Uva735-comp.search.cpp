@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include<iostream>
 using namespace std;
 
@@ -43,7 +42,8 @@ int main()
 		}
 		if(cnt==0)cout<<"THE SCORE OF "<<s<<" CANNOT BE MADE WITH THREE DARTS."<<endl;
 		else {
-		cout<<"NUMBER OF COMBINATIONS THAT SCORES "<<s<<" IS "<<com<<"."<<endl;		cout<<"NUMBER OF PERMUTATIONS THAT SCORES "<<s<<" IS "<<cnt<<"."<<endl;
+		cout<<"NUMBER OF COMBINATIONS THAT SCORES "<<s<<" IS "<<com<<"."<<endl;
+		cout<<"NUMBER OF PERMUTATIONS THAT SCORES "<<s<<" IS "<<cnt<<"."<<endl;
 		}
 		cout<<"**********************************************************************"<<endl;
 	}
