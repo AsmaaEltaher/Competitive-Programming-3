@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include<iostream>
 #include<string>
 #include<string.h>
@@ -84,7 +83,10 @@ int main()
 		//cout<<pop<<" "<<out<<endl;
 		cout<<"Case Number  "<<tc<<endl;
 		cout<<"Number of Customers: "<<pop<<endl;
-		cout<<"Locations recommended: ";		int temp=out,pos=0;		bool f=0;		while(temp>0){
+		cout<<"Locations recommended: ";
+		int temp=out,pos=0;
+		bool f=0;
+		while(temp>0){
 			if((temp&1)==1){
 				if(f)cout<<" ";
 				cout<<pos+1;
@@ -92,7 +94,8 @@ int main()
 			}
 			temp>>=1;
 			pos++;
-		}		cout<<endl<<endl;
+		}
+		cout<<endl<<endl;
 	}
 	return 0;
 }
